@@ -35,11 +35,23 @@ export default (await import('vue')).defineComponent({
     name: 'Footer',
     data() {
         return {
+            bearer: null,
             playing: null
         }
     },
-    async mounted() {
-        let response = await fetch(`${import.meta.env.VITE_TOKEN_ENDPOINT}/api/token`, {
+    methods: {
+        getSpotifyPlaying: function (bearer) {
+            return fetch(`${import.meta.env.VITE_API_ENDPOINT}/me/player/currently-playing`, {
+                headers: {
+                    Accept: "application/json",
+                    "Content-Type": "application/json",
+                    Authorization: `Bearer ${bearer.access_token}`
+                }
+            })        
+        }
+    },
+    mounted() {
+        fetch(`${import.meta.env.VITE_TOKEN_ENDPOINT}/api/token`, {
             method: 'POST',
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded",
@@ -50,23 +62,23 @@ export default (await import('vue')).defineComponent({
                 refresh_token: import.meta.env.VITE_REFRESH_TOKEN
             }).toString()
         })
-
-        const bearer = await response.json();
-
-        fetch(`${import.meta.env.VITE_API_ENDPOINT}/me/player/currently-playing`, {
-            headers: {
-                Accept: "application/json",
-                "Content-Type": "application/json",
-                Authorization: `Bearer ${bearer.access_token}`
-            }
-        }) 
         .then(async (res) => {
-            console.log(res)
-            this.playing = await res.json();
+            const bearer = await res.json();
+            
+            this.getSpotifyPlaying(bearer)
+            .then(async (res) => {
+                console.log(res)
+                this.playing = await res.json();
+            })
+            .catch((err) => {
+                this.playing = null;
+            })
         })
         .catch((err) => {
-            this.playing = null;
+            console.log(err)
         })
+
+        console.log(this.bearer)
     }
 })
 </script>
