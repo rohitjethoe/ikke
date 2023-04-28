@@ -31,7 +31,7 @@
 </template>
 
 <script>
-export default (await import('vue')).defineComponent({
+export default {
     name: 'Footer',
     data() {
         return {
@@ -80,5 +80,5 @@ export default (await import('vue')).defineComponent({
 
         console.log(this.bearer)
     }
-})
+}
 </script>

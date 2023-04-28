@@ -99,7 +99,7 @@
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 
-export default (await import('vue')).defineComponent({
+export default {
   name: 'App',
   mounted() {
     // js for animating 
@@ -108,7 +108,7 @@ export default (await import('vue')).defineComponent({
     Header,
     Footer
   }
-})
+}
 </script>
 
 <style>
