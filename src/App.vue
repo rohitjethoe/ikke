@@ -26,7 +26,7 @@
             <div class="flex mt-8 w-[200vw]">
               <div class="w-[350px]">
                 <img src="./assets/reddit-karma-farm.gif" alt="">
-                <p class="mt-4 text-sm"><span class="text-gassyGray text-xs">een</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;hobby project</p>
+                <p class="mt-4 text-sm"><span class="text-gassyGray text-xs">de</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reddit karma farm</p>
               </div>
               <div class="w-[366px]">
                 <img class="transform -translate-x-36 translate-y-20 aspect-video object-contain" src="./assets/rkf-code.png" alt="">
@@ -46,7 +46,7 @@
             <p class="font-cormorant w-5/6 mx-auto text-right text-sm sm:text-base">Bol.com Affiliate Web API is een backendsysteem gebouwd in Node.js die gebruikt maakt caching om de JWT tokens op te slaan. Zo worden er aan de regels voldaan van Bol.com om zo min mogelijk API calls te maken.</p>
             <div class="flex mt-8 w-[200vw]">
               <div class="w-[350px]">
-                <p class="my-4 text-sm"><span class="text-gassyGray text-xs">een</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;hobby project</p>
+                <p class="my-4 text-sm"><span class="text-gassyGray text-xs">een</span>&nbsp; &nbsp; &nbsp; &nbsp;nodejs bol api</p>
                 <img src="./assets/bwa-code.png" alt="">
               </div>
               <div class="w-[366px]">
