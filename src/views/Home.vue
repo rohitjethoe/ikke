@@ -26,7 +26,7 @@
                   <p class="mt-4 text-sm"><span class="text-gassyGray text-xs">de</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reddit karma farm</p>
                 </div>
                 <div class="w-[366px]">
-                  <img class="transform -translate-x-36 translate-y-20 aspect-video object-contain" src="@/assets/rkf-code.png" alt="">
+                  <img class="transform -translate-x-36 translate-y-20 aspect-video object-contain" src="@/assets/rkf-code.webp" alt="">
                 </div>
                 <div class="w-[100px] -translate-x-[380px] translate-y-4">
                   <img src="@/assets/reddit.webp" alt="">
