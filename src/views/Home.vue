@@ -22,7 +22,7 @@
               <p class="font-cormorant w-5/6 mx-auto text-base sm:text-lg">Reddit Karma Farm is een desktop applicatie die geautomatiseerd karmapunten op Reddit verzamelt. De punten worden verzamelt door comments te plaatsen. Volledig gebouwt op JavaScript met de welbekende libraries Puppeteer en Electron met Vue.js.</p>
               <div class="flex mt-8 w-[200vw]">
                 <div class="w-[350px]">
-                  <video autoplay src="@/assets/reddit-karma-farm.webp"></video>
+                  <img src="@/assets/reddit-karma-farm.webp" alt="">
                   <p class="mt-4 text-sm"><span class="text-gassyGray text-xs">de</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reddit karma farm</p>
                 </div>
                 <div class="w-[366px]">
