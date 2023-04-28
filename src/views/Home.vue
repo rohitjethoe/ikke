@@ -1,9 +1,9 @@
 <template>
     <Layout>
         <div class="pt-[24vh]">
-          <h1 class="mx-3 text-xl max-w-[370px]:text-lg min-[400px]:text-2xl min-[530px]:text-3xl">
-            रोहित <span class="bg-sexyGreen px-1">Web Developer</span> in Amsterdam. <br>
-            Applicaties gepolijst met precisie.
+          <h1 class="mx-3 text-xl min-[440px]:text-2xl sm:text-3xl">
+            <span class="bg-sexyGreen px-1">Software Developer</span> in Amsterdam. <br>
+            Technologie gepolijst met precisie.
           </h1>
           <p class="mx-3 mt-1 text-xs">Laten we praten <a class="font-semibold underline" href="mailto:rohitjethoe@proton.me">rohitjethoe@proton.me</a></p>
         </div>
