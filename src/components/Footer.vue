@@ -4,6 +4,9 @@
             <div v-if="playing">
                 <i class="fa-brands fa-spotify text-[#1db954]"></i> <span class="font-semibold">{{ playing.item.name }}</span> - {{  playing.item.artists[0].name }}
             </div>
+            <div v-else>
+                <i class="fa-brands fa-spotify text-[#1db954]"></i> <span class="font-semibold">Not Playing</span> - Spotify
+            </div>
         </div>
         <div class="mt-8">
             <ul class="text-[#4f4f4f]">
@@ -67,7 +70,6 @@ export default {
             
             this.getSpotifyPlaying(bearer)
             .then(async (res) => {
-                console.log(res)
                 this.playing = await res.json();
             })
             .catch((err) => {
@@ -75,7 +77,7 @@ export default {
             })
         })
         .catch((err) => {
-            console.log(err)
+            this.playing = null;
         })
 
         console.log(this.bearer)
