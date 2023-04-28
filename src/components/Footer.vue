@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-[92%] border-t-[1px] border-[#e7e7e7] font-sarabun mx-auto">
+    <footer class="w-[92%] border-t-[1px] border-[#e7e7e7] text-sm font-sarabun mx-auto">
         <div class="mt-8">
             <div v-if="playing">
                 <i class="fa-brands fa-spotify text-[#1db954]"></i> <span class="font-semibold">{{ playing.item.name }}</span> - {{  playing.item.artists[0].name }}
