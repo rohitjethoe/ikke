@@ -7,7 +7,8 @@ export default {
   theme: {
     colors: {
       primary: '#282828',
-      sexyGreen: '#C7DFC5',
+      secondary: '#FFF',
+      sexyGreen: '#b2b2fa',
       vibrantYellow: '#E1E99C',
       gassyGray: '#6A6A6A'
     },
