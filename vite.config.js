@@ -5,7 +5,6 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   esbuild: {
-    target: 'esnext',
     supported: {
       'top-level-await': true
     }
