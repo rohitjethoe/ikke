@@ -43,7 +43,7 @@
               <p class="font-cormorant w-5/6 mx-auto text-right text-base sm:text-lg">Bol.com Affiliate Web API is een backendsysteem gebouwd in Node.js die gebruikt maakt caching om de JWT tokens op te slaan. Zo worden er aan de regels voldaan van Bol.com om zo min mogelijk API calls te maken.</p>
               <div class="flex mt-8 w-[200vw]">
                 <div class="w-[350px]">
-                  <p class="my-4 text-sm"><span class="text-gassyGray text-xs">een</span>&nbsp; &nbsp; &nbsp; &nbsp;nodejs bol api</p>
+                  <p class="my-4 text-sm"><span class="text-gassyGray text-xs">een</span>&nbsp; &nbsp; &nbsp; &nbsp;nodejs bol web api</p>
                   <img src="@/assets/bwa-code.webp" alt="">
                 </div>
                 <div class="w-[366px]">
@@ -54,7 +54,7 @@
                 </div>
               </div>
               <div class="text-center text-sm sm:text-base mt-12">
-                <a href="https://github.com/rohitjethoe/nodejs-bol-api" target="_blank">
+                <a href="https://github.com/rohitjethoe/nodejs-bol-webapi" target="_blank">
                   <i class="fa-brands fa-github"></i> Bekijk op Github
                 </a>
               </div>
