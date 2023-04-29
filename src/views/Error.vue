@@ -6,7 +6,7 @@
                 <h1 class="mt-4 text-3xl font-bold tracking-tight text-primary sm:text-5xl">Pagina niet gevonden</h1>
                 <p class="mt-6 text-base leading-7 text-gassyGray">Sorry, we couldn’t find the page you’re looking for.</p>
                 <div class="mt-10">
-                <a href="#" class="text-sm font-semibold leading-7 text-sexyGreen"><span aria-hidden="true">&larr;</span> Back to home</a>
+                <a href="/" class="text-sm font-semibold leading-7 text-sexyGreen"><span aria-hidden="true">&larr;</span> Back to home</a>
                 </div>
             </div>
         </main>
