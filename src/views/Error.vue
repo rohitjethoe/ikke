@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <main class="mx-auto w-full max-w-7xl px-6 py-24 sm:py-32 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:px-8">
+        <main class="mx-auto w-full min-h-[80vh] max-w-7xl px-6 py-24 sm:py-32 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:px-8">
             <div class="max-w-lg">
                 <p class="text-base font-semibold leading-8 text-sexyGreen">404</p>
                 <h1 class="mt-4 text-3xl font-semibold tracking-tight text-primary sm:text-5xl">Pagina niet gevonden</h1>

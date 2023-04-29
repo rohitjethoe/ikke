@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <div>
+        <div class="min-h-[80vh]">
             <h1 class="text-center pt-10 pb-4 text-md">
                 PROJECTEN ✥ ARCHIEF
             </h1>
