@@ -65,7 +65,7 @@
         <div>
           <div class="pt-36">
             <h2 class="uppercase font-bold text-gassyGray text-xs">
-              Werkervaringen
+              Werkervaring
             </h2>
             <div class="pt-12">
               <div class="inline-block w-48 h-3 pb-10">
