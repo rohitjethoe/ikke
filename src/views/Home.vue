@@ -40,7 +40,7 @@
             </div>
   
             <div class="pt-12 pb-24">
-              <p class="font-cormorant w-5/6 mx-auto text-right text-base sm:text-lg">Bol.com Affiliate Web API is een backendsysteem gebouwd in Node.js die gebruikt maakt caching om de JWT tokens op te slaan. Zo worden er aan de regels voldaan van Bol.com om zo min mogelijk API calls te maken.</p>
+              <p class="font-cormorant w-5/6 mx-auto text-right text-base sm:text-lg">Bol.com Affiliate Web API is een backendsysteem gebouwd in Node.js die gebruikt maakt van caching om de JWT tokens op te slaan. Zo worden er aan de regels voldaan van Bol.com om zo min mogelijk API calls te maken.</p>
               <div class="flex mt-8 w-[200vw]">
                 <div class="w-[350px]">
                   <p class="my-4 text-sm"><span class="text-gassyGray text-xs">een</span>&nbsp; <span class="hidden min-[400px]:inline-block">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>nodejs bol api</p>
