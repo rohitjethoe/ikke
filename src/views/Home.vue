@@ -2,7 +2,7 @@
     <Layout>
         <div class="pt-[24vh]">
           <h1 class="mx-3 text-xl min-[440px]:text-2xl sm:text-3xl">
-            <span class="bg-sexyGreen px-1">Software Developer</span> in Amsterdam. <br>
+            <span class="bg-sexyGreen px-1">{{ title }}</span> in Amsterdam. <br>
             Technologie gepolijst met precisie.
           </h1>
           <p class="mx-3 mt-1 text-xs">Laten we praten <a class="font-semibold underline" href="mailto:rohitjethoe@proton.me">rohitjethoe@proton.me</a></p>
@@ -43,7 +43,7 @@
               <p class="font-cormorant w-5/6 mx-auto text-right text-base sm:text-lg">Bol.com Affiliate Web API is een backendsysteem gebouwd in Node.js die gebruikt maakt caching om de JWT tokens op te slaan. Zo worden er aan de regels voldaan van Bol.com om zo min mogelijk API calls te maken.</p>
               <div class="flex mt-8 w-[200vw]">
                 <div class="w-[350px]">
-                  <p class="my-4 text-sm"><span class="text-gassyGray text-xs">een</span>&nbsp; <span class="hidden min-[400px]:inline-block">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span>nodejs bol api</p>
+                  <p class="my-4 text-sm"><span class="text-gassyGray text-xs">een</span>&nbsp; <span class="hidden min-[400px]:inline-block">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>nodejs bol api</p>
                   <img src="@/assets/bwa-code.webp" alt="">
                 </div>
                 <div class="w-[366px]">
@@ -94,8 +94,22 @@ import Layout from '@/layouts/Layout.vue';
 export default {
     name: 'App',
     mounted() {
-      // js for animating 
+        const titles = ['JavaScript Developer', 'Backend Developer', 'Frontend Developer', 'Fullstack Developer'];
+		let i = 0;
+        setInterval(() => {
+			i++;
+			if (i < titles.length) {
+				this.title = titles[i]
+			} else {
+				clearInterval();
+			}
+        }, 300)
     },
+	data() {
+		return {
+			title: 'JavaScript Developer'
+		}
+	},
     components: {
       Layout
     }
