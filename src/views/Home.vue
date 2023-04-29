@@ -14,7 +14,7 @@
   
         <div>
           <div class="pt-36">
-            <h2 class="uppercase font-bold text-gassyGray text-xs">
+            <h2 class="uppercase font-bold text-gassyGray text-sm">
               Uitgelichte projecten
             </h2>
   
@@ -64,7 +64,7 @@
   
         <div>
           <div class="pt-36">
-            <h2 class="uppercase font-bold text-gassyGray text-xs">
+            <h2 class="uppercase font-bold text-gassyGray text-sm">
               Werkervaring
             </h2>
             <div class="pt-12">
