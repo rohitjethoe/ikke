@@ -5,7 +5,7 @@
             <span class="bg-sexyGreen px-1">{{ title }}</span> in Amsterdam. <br>
             Technologie gepolijst met precisie.
           </h1>
-          <p class="mx-3 mt-1 text-xs">Laten we praten <a class="font-semibold underline" href="mailto:rohitjethoe@proton.me">rohitjethoe@proton.me</a></p>
+          <p class="mx-3 mt-1 text-xs">Laten we praten <a class="font-semibold text-sexyGreen underline" href="mailto:rohitjethoe@proton.me">rohitjethoe@proton.me</a></p>
         </div>
   
         <div class="pt-[24vh]">
@@ -20,7 +20,7 @@
   
             <div class="pt-12 pb-24">
               <p class="font-cormorant w-5/6 mx-auto text-base sm:text-lg">Reddit Karma Farm is een desktop applicatie die geautomatiseerd karmapunten op Reddit verzamelt. De punten worden verzamelt door comments te plaatsen. Volledig gebouwt op JavaScript met de welbekende libraries Puppeteer en Electron met Vue.js.</p>
-              <div class="flex mt-8 w-[200vw]">
+              <div class="flex mt-8 w-[200vw] md:translate-x-10">
                 <div class="w-[350px]">
                   <img src="@/assets/reddit-karma-farm.webp" alt="">
                   <p class="mt-4 text-sm"><span class="text-gassyGray text-xs">de</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reddit karma farm</p>

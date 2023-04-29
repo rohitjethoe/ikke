@@ -1,5 +1,5 @@
 <template>
-    <div class="sm:w-[612px] md:w-[740px] sm:mx-auto md:mx-auto">
+    <div class="sm:w-[612px] md:w-[740px] lg:w-[820px] sm:mx-auto">
         <Header />
         <div class="pb-36 w-[92%] mx-auto font-sarabun">
             <slot />

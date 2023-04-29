@@ -15,8 +15,8 @@
                 </svg>
             </div>
             <div class="h-8 w-8 hover:cursor-pointer" @click="navOpened = !navOpened">
-                <div :class="navOpened ? 'translate-y-1' : ''" class="my-2 transition-all w-8 h-px bg-primary"></div>
-                <div :class="navOpened ? '-translate-y-1' : ''" class="my-2 transition-all w-8 h-px bg-primary"></div>
+                <div :class="navOpened ? 'translate-y-2 -rotate-45 w-6' : ''" class="my-2 transition-all w-8 h-px bg-primary"></div>
+                <div :class="navOpened ? '-translate-y-px rotate-45 w-6' : ''" class="my-2 transition-all w-8 h-px bg-primary"></div>
             </div>
         </div>
         <div :class="navOpened ? 'block' : 'hidden'" class="absolute top-16 left-0 px-4 bg-white w-full">
